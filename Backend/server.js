@@ -11,7 +11,7 @@ app.use(express.json());
 // app.use("/api/users", require("./routes/userRoutes"));
 // app.use("/api/expenses", require("./routes/expenseRoutes"));
 // app.use("/api/stocks", require("./routes/stockRoutes"));
-// app.use("/api/dashboard", require("./routes/dashboardRoutes"));
+app.use("/api/dashboard", require("./routes/dashboardRoutes"));
 
 const PORT = process.env.PORT || 5000;
 mongoose
